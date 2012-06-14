@@ -1,0 +1,36 @@
+{
+  // Tab and whitespace handling.
+  // Indent using spaces, 2 spaces ber indent by default, clean up extra whitespaces on save
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "trim_automatic_white_space": true,
+  "trim_trailing_white_space_on_save": true,
+  "draw_white_space": "all",
+
+  // Don't complain about plug-in responsiveness
+  "detect_slow_plugins": false,
+
+  // Folders to hide from the sidebar
+  "folder_exclude_patterns":
+  [
+  ".svn",
+  ".git",
+  ".hg",
+  "CVS",
+  ".sass-cache"
+  ],
+
+  // Enable vintage mode and make it start in normal mode.
+  // Delete this if you don't want vim keybindings.
+  "ignored_packages": [],
+  "vintage_start_in_command_mode": true,
+
+  // Make the cursor more visible (or at least attempt to)
+  "wide_caret": true,
+  "caret_style": "phase",
+
+  // Visual/theme settings
+  "font_size": 11,
+  "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+  "theme": "Soda Dark.sublime-theme"
+}
